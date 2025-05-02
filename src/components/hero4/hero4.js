@@ -28,7 +28,7 @@ const Hero4 = () => {
                         <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
                             <div>
                                 <div className="xb-item--holder wow fadeInUp" data-wow-delay="150ms" data-wow-duration="600ms">
-                                    <p className="xb-item--content">Votre agence. Spécialiste du marketing digital.</p>
+                                    <p className="xb-item--content">Waviloid Studio c'est Votre agence, Spécialiste du marketing digital.</p>
                                     <div className="hero-btn">
                                         <Link onClick={ClickHandler} to="/about" className="blc-btn">
                                             <span>Explore solutions <i className="far fa-angle-right"></i></span>

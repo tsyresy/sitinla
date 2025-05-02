@@ -32,7 +32,7 @@ const ProjectSection = (props) => {
                             <div>
                                 <div className="xb-btn wow fadeInRight" data-wow-duration="600ms">
                                     <Link onClick={ClickHandler} to={'/casestudy'} className="thm-btn thm-btn--fill_icon thm-btn--strock">
-                                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">Get started now</span></div>
+                                        <div className="xb-item--hidden"><span className="xb-item--hidden-text">Découvrons-les ensemble.</span></div>
                                         <div className="xb-item--holder">
                                             <span className="xb-item--text">View all case study</span>
                                             <div className="xb-item--icon"><i className="far fa-long-arrow-right"></i></div>

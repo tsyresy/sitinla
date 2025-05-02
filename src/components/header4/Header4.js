@@ -558,7 +558,7 @@ const Header4 = (props) => {
                         </div>
                         <div className="header-contact d-none d-md-block">
                             <Link onClick={ClickHandler} to="/contact" className="blc-btn">
-                                <span>Get started now</span>
+                                <span>Réservez maintenant !</span>
                                 <span className="btn-shape">
                                     <svg width="216" height="56" viewBox="0 0 216 56" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M1 17.4615L20.3067 1H196.849L215 17.4434V39.5385L196.866 55H20.3067L1 38.5385V17.4615Z" fill="#010315" stroke="url(#paint0_linear_1668_276)" strokeWidth="2" />

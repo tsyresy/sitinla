@@ -146,12 +146,12 @@ const IndustrieSection = (props) => {
                 <div className="sec-title--two sec-title--three text-center mb-60">
                     <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                         <div>
-                            <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={hicon} alt="" /><span>Industries we work</span></span>
+                            <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={hicon} alt="" /><span>Industries dans lesquelles nous travaillons</span></span>
                         </div>
                     </Fade>
                     <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                         <div>
-                            <h2 className="title wow fadeInDown" data-wow-duration="600ms">Serving diverse industries</h2>
+                            <h2 className="title wow fadeInDown" data-wow-duration="600ms">Au service de diverses industries</h2>
                         </div>
                     </Fade>
                 </div>
@@ -245,7 +245,7 @@ const IndustrieSection = (props) => {
             </div>
             <div className="xb-btn text-center mt-60">
                 <Link onClick={ClickHandler} to="/contact" className="blc-btn">
-                    <span>Get started now <i className="far fa-angle-right"></i></span>
+                    <span>Découvrons-les ensemble. <i className="far fa-angle-right"></i></span>
                     <span className="btn-shape">
                         <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.5 22.7183L25.5093 1.39453H337.972L361.5 22.7092V56.5515L337.98 76.6051H25.5093L0.5 55.2813V22.7183Z" fill="url(#paint0_linear_1600_996691467)" stroke="#23263C"></path>

@@ -14,7 +14,7 @@ const SubmitHandler = (e) => {
 }
 
 const Footer = (props) => {
-
+    const currentYear = new Date().getFullYear(); // Récupère l'année actuelle
   return (
     <footer className="footer footer-style-two footer-style-four bg_img pos-rel" style={{ backgroundColor: "#16140c" }}>
         <div className="container">
@@ -72,7 +72,13 @@ const Footer = (props) => {
                     </div>
                 </div>
                 <div className="footer-copyright ul_li_between">
-                    <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/home-6">innomax</Link>. All rights reserved.</p>
+                    <p className="copyright mt-20">
+                        Copyright © {currentYear}{' '}
+                        <Link onClick={ClickHandler} to="/">
+                            Waviloid Studio
+                        </Link>
+                        . All rights reserved.
+                    </p>
                     <ul className="hds-footer-links ul_li mt-20">
                         <li><Link onClick={ClickHandler} to="/terms-conditions">Terms & Conditions</Link></li>
                         <li><Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></li>

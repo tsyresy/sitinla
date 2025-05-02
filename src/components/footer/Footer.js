@@ -16,6 +16,7 @@ const SubmitHandler = (e) => {
 
 
 const Footer = (props) => {
+    const currentYear = new Date().getFullYear(); // Récupère l'année actuelle
     return (
         <footer className="footer footer-style-two pt-200 bg_img pos-rel" style={{ backgroundColor: "#0c111d" }}>
             <div className="container">
@@ -26,8 +27,8 @@ const Footer = (props) => {
                                 <span><img src={icon1} alt="" /></span>
                             </div>
                             <div className="xb-item--holder">
-                                <p className="xb-item--content">Write to us</p>
-                                <h4 className="xb-item--title">innomax@gmail.com</h4>
+                                <p className="xb-item--content">Nous écrire</p>
+                                <h4 className="xb-item--title">communication@waviloidstudio.com</h4>
                             </div>
                         </div>
                         <div className="info-item ul_li">
@@ -35,8 +36,8 @@ const Footer = (props) => {
                                 <span><img src={icon2} alt="" /></span>
                             </div>
                             <div className="xb-item--holder">
-                                <p className="xb-item--content">Call Us (USA)</p>
-                                <h4 className="xb-item--title">+(1) 1230 452 8597</h4>
+                                <p className="xb-item--content">Appeler-nous ! </p>
+                                <h4 className="xb-item--title">+(261) 34 51 101 20</h4>
                             </div>
                         </div>
                         <div className="info-item ul_li">
@@ -44,8 +45,9 @@ const Footer = (props) => {
                                 <span><img src={icon3} alt="" /></span>
                             </div>
                             <div className="xb-item--holder">
-                                <p className="xb-item--content">Our Office</p>
-                                <h4 className="xb-item--title">Waterloo,Park,Australia</h4>
+                                <p className="xb-item--content">Notre bureau</p>
+                                <h4 className="xb-item--title">Antananarivo,Madagascar</h4>
+                                <h4 className="xb-item--title">Paris,France</h4>
                             </div>
                         </div>
                     </div>
@@ -59,8 +61,8 @@ const Footer = (props) => {
                                 <div className="img"><img src={icon4} alt="" /></div>
                                 <button type="submit" className="xb-item--btn"><i className="fas fa-paper-plane"></i></button>
                             </form>
-                            <span className="xb-item--text">By continuing, you agree to innomax <Link onClick={ClickHandler} to="/terms-conditions">Terms</Link> of
-                                Use and <Link onClick={ClickHandler} to="/privacy-policy">Privacy Policy</Link></span>
+                            <span className="xb-item--text">En continuant, vous acceptez <Link onClick={ClickHandler} to="/terms-conditions">les conditions</Link> d'utilisation
+                                et <Link onClick={ClickHandler} to="/privacy-policy">la politique de confidentialité de Waviloid Studio.</Link></span>
                         </div>
                         <div className="footer-widget">
                             <span className="xb-item--sub-title">Company</span>
@@ -102,8 +104,13 @@ const Footer = (props) => {
                         </div>
                     </div>
                     <div className="footer-copyright mt-70 ul_li_between">
-                        <p className="copyright mt-20">Copyright © 2024 <Link onClick={ClickHandler} to="/">innomax</Link>. All rights
-                            reserved.</p>
+                        <p className="copyright mt-20">
+                            Copyright © {currentYear}{' '}
+                            <Link onClick={ClickHandler} to="/">
+                                Waviloid Studio
+                            </Link>
+                            . All rights reserved.
+                        </p>
                         <ul className="footer-link ul_li mt-20">
                             <li><span>Follow us :</span></li>
                             <li><Link onClick={ClickHandler} to="/"><i className="fab fa-twitter"></i></Link></li>

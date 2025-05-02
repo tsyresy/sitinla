@@ -20,12 +20,12 @@ const WorkFlow = (props) => {
                     <div className="sec-title--two sec-title--three text-center mb-60">
                         <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                             <div>
-                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" /><span>How we works</span></span>
+                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" /><span>Comment procède-t-on ?</span></span>
                             </div>
                         </Fade>
                         <Fade direction='down' triggerOnce={'false'} duration={800} delay={9}>
                             <div>
-                                <h2 className="title wow fadeInDown" data-wow-duration="600ms">Our Security Workflow</h2>
+                                <h2 className="title wow fadeInDown" data-wow-duration="600ms">Notre process universel</h2>
                             </div>
                         </Fade>
                     </div>
@@ -36,7 +36,7 @@ const WorkFlow = (props) => {
                                     <div className="xb-item--icon">
                                         <img src={icon1} alt=""/>
                                     </div>
-                                    <h4 className="xb-item--title">Risk Assessment & Consultation</h4>
+                                    <h4 className="xb-item--title">Breafing & Consultation</h4>
                                 </div>
                                 <div className="xb-img">
                                     <img src={wImg1} alt=""/>
@@ -54,7 +54,7 @@ const WorkFlow = (props) => {
                                     <div className="xb-item--icon">
                                         <img src={icon2} alt=""/>
                                     </div>
-                                    <h4 className="xb-item--title">Solution Design and Implementation</h4>
+                                    <h4 className="xb-item--title">Echange & Excecution</h4>
                                 </div>
                                 <div className="xb-img">
                                     <img src={wImg2} alt=""/>
@@ -72,7 +72,7 @@ const WorkFlow = (props) => {
                                     <div className="xb-item--icon">
                                         <img src={icon3} alt=""/>
                                     </div>
-                                    <h4 className="xb-item--title">Monitoring and Support</h4>
+                                    <h4 className="xb-item--title">Livraison & Fidélisation</h4>
                                 </div>
                                 <div className="xb-img">
                                     <img src={wImg3} alt=""/>

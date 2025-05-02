@@ -236,12 +236,12 @@ const TestimonialSection = (props) => {
                     <div className="sec-title--two sec-title--three text-center mb-175">
                         <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                             <div>
-                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" /><span>Customer stories</span></span>
+                                <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={icon} alt="" /><span>Témoignages clients</span></span>
                             </div>
                         </Fade>
                         <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                             <div>
-                                <h2 className="title wow fadeInDown" data-wow-duration="600ms">Our amazing customers.</h2>
+                                <h2 className="title wow fadeInDown" data-wow-duration="600ms">Nos incroyables clients..</h2>
                             </div>
                         </Fade>
                     </div>

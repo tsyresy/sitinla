@@ -210,7 +210,7 @@ const ServiceSection = (props) => {
         </div>
         <div className="xb-btn z-2 pos-rel text-center mt-55 wow fadeInUp" data-wow-duration="600ms">
           <Link onClick={ClickHandler} to="/service" className="blc-btn">
-            <span>Get started now <i className="far fa-angle-right"></i></span>
+            <span>Découvrons-les ensemble. <i className="far fa-angle-right"></i></span>
             <span className="btn-shape">
               <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0.5 22.7183L25.5093 1.39453H337.972L361.5 22.7092V56.5515L337.98 76.6051H25.5093L0.5 55.2813V22.7183Z" fill="url(#paint0_linear_1600_9966914)" stroke="#23263C" />

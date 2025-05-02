@@ -45,7 +45,7 @@ const About = (props) => {
                                     <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
                                         <div>
                                             <Link onClick={ClickHandler} to="/about" className="blc-btn">
-                                                <span>Get started now <i className="far fa-angle-right"></i></span>
+                                                <span>Découvrons-les ensemble. <i className="far fa-angle-right"></i></span>
                                                 <span className="btn-shape">
                                                     <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                                         <path d="M0.5 17.2308L20.1225 0.5H252.042L270.5 17.2217V43.7692L252.05 59.5H20.1225L0.5 42.7692V17.2308Z" fill="#010315" stroke="url(#paint0_linear_1742_66189)" />
@@ -106,8 +106,8 @@ const About = (props) => {
                                 <div className="xb-item--icons">
                                     <img src={abicon1} alt="" />
                                 </div>
-                                <h3 className="xb-item--title">Proactive detection</h3>
-                                <span className="xb-item--content">We catch threats early to keep <br /> your systems safe.</span>
+                                <h3 className="xb-item--title">Innover</h3>
+                                <span className="xb-item--content">Notre imagination façonne des <br /> concepts uniques et percutants.</span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
@@ -115,8 +115,8 @@ const About = (props) => {
                                 <div className="xb-item--icons">
                                     <img src={abicon2} alt="" />
                                 </div>
-                                <h3 className="xb-item--title">Real-time response</h3>
-                                <span className="xb-item--content">We respond instantly minimizing <br /> to protect your systems.</span>
+                                <h3 className="xb-item--title">Cibler</h3>
+                                <span className="xb-item--content">Nos stratégies affûtées touchent <br /> les cœurs avec précision.</span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
@@ -124,8 +124,8 @@ const About = (props) => {
                                 <div className="xb-item--icons">
                                     <img src={abicon3} alt="" />
                                 </div>
-                                <h3 className="xb-item--title">AI-powered security</h3>
-                                <span className="xb-item--content">We use AI to enhance and ensuring detection and automate protection.</span>
+                                <h3 className="xb-item--title">Fasciner</h3>
+                                <span className="xb-item--content">Nos créations envoûtantes capturent <br /> l’imagination en un instant.</span>
                             </div>
                         </div>
                         <div className="col-lg-3 col-md-6 cs-feature-col mt-30">
@@ -133,8 +133,8 @@ const About = (props) => {
                                 <div className="xb-item--icons">
                                     <img src={abicon4} alt="" />
                                 </div>
-                                <h3 className="xb-item--title">Risk & compliance</h3>
-                                <span className="xb-item--content">We help you meet regulations and manage security risks effectively.</span>
+                                <h3 className="xb-item--title">Triompher</h3>
+                                <span className="xb-item--content">Notre vision transforme l’engagement <br /> en succès éclatants.</span>
                             </div>
                         </div>
                     </div>
