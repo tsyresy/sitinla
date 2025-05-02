@@ -26,24 +26,24 @@ const customerStories = [
     {
         left: {
             img: tsImg1,
-            subTitle: "customer story",
+            subTitle: "Avis Clients",
             logo: "assets/img/brand/brd-logo01.png",
-            title: "Luminous enhances data security.",
+            title: "Luminous Website.",
         },
         right: {
-            content: "“With Innomax's real-time threat detection, our sensitive data is more secure than ever. Their team implemented advanced security measures, ensuring we meet all compliance requirements.”",
+            content: "“Waviloid Studio a conçu notre site web avec un soin incroyable, en un temps record ! On est ravis, son design intuitif nous propulse. Merci mille fois !”",
             author: {
                 name: "Mike Davis",
                 designation: "CTO at Luminous",
             },
             stats: [
                 {
-                    number: "30 min",
-                    text: "to detect and neutralize threats, from 3+ hours.",
+                    number: "18 jours",
+                    text: "Délai de livraison plus court que prévu",
                 },
                 {
                     number: "99.8%",
-                    text: "Enhanced data protection with real-time monitoring.",
+                    text: "Efficace.",
                 },
             ],
         },
@@ -51,24 +51,24 @@ const customerStories = [
     {
         left: {
             img: tsImg2,
-            subTitle: "customer story",
+            subTitle: "Avis Clients",
             logo: "assets/img/brand/brd-logo02.png",
-            title: "Bitstamp secures customer.",
+            title: "Bitstamp'Motion design.",
         },
         right: {
-            content: "“Innomax transformed our security approach, giving us the confidence to protect our customers' data. Their solutions strengthen our defenses while ensuring full compliance with industry regulations.”",
+            content: "“Waviloid a donné vie à notre marque avec un motion design époustouflant ! Leurs animations nous émerveillent, on est tellement reconnaissants. Merci !”",
             author: {
                 name: "John Lee",
                 designation: "CEO at Bitstamp",
             },
             stats: [
                 {
-                    number: "20 min",
-                    text: "response time, down from over an hour.",
+                    number: "7 jours",
+                    text: "Temps de livraison moyenne",
                 },
                 {
                     number: "100%",
-                    text: "compliance achieved with industry security standards.",
+                    text: "Elle est complètement parfaite.",
                 },
             ],
         },
@@ -101,24 +101,24 @@ const customerStories = [
     {
         left: {
             img: tsImg4,
-            subTitle: "customer story",
+            subTitle: "Avis Clients",
             logo: "assets/img/brand/brd-logo04.png",
-            title: "FirstQuadrant mitigates risk.",
+            title: "Santander teasing vidéo.",
         },
         right: {
-            content: "“Innomax’s proactive solutions have greatly reduced our risk exposure. Their expert team implemented strong defenses, helping us stay ahead of evolving cyber threats and keep our business secure.”",
+            content: "“Le montage vidéo de Waviloid nous a touchés en plein cœur ! Leur talent transforme nos idées en vidéos vibrantes. Un grand merci !”",
             author: {
                 name: "Laura Chen",
-                designation: "Founder at FirstQuadrant",
+                designation: "Founder at Santander",
             },
             stats: [
                 {
                     number: "15 min",
-                    text: "average detection time, a 70% improvement.",
+                    text: "La durée d'une belle vidéo corporate",
                 },
                 {
-                    number: "98.9%",
-                    text: "threat mitigation security success rate.",
+                    number: "99.9%",
+                    text: "Nos auditeurs deviennent le plus souvent des clients.",
                 },
             ],
         },

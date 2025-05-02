@@ -86,8 +86,8 @@ const About = (props) => {
                                                 <img src={about2} alt="" />
                                             </div>
                                             <div className="xb-item--inner">
-                                                <h3 className="xb-item--number">120+</h3>
-                                                <span className="xb-item--content">Our honest specialist team member</span>
+                                                <h3 className="xb-item--number">20+</h3>
+                                                <span className="xb-item--content">Notre équipe de spécialistes</span>
                                             </div>
                                         </div>
                                     </div>
