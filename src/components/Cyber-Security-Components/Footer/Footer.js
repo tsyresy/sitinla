@@ -23,7 +23,7 @@ const Footer = (props) => {
       <div className="container">
         <div className="xb-footer">
           <div className="sec-title--two sec-title--three text-center mb-40">
-            <span className="sub-title"><img src="assets/img/icon/airdrop01.svg" alt="" /><span>Join the  innomax community</span></span>
+            <span className="sub-title"><img src="assets/img/icon/airdrop01.svg" alt="" /><span>Rejoignez-nous</span></span>
           </div>
           <div className="social-link ul_li_between">
             <div className="social-item">

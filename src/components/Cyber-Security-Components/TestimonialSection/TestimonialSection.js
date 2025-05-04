@@ -76,24 +76,24 @@ const customerStories = [
     {
         left: {
             img: tsImg3,
-            subTitle: "customer story",
+            subTitle: "Avis Clients",
             logo: "assets/img/brand/brd-logo03.png",
             title: "Santander boosts cybersecurity.",
         },
         right: {
-            content: "“Thanks to innomax, we have a strong security framework that protects our data and ensures compliance with industry regulations. Their solutions provide real-time threat detection, with confidence.”",
+            content: "“Le montage vidéo de Waviloid nous a touchés en plein cœur ! Leur talent transforme nos idées en vidéos vibrantes. Un grand merci !”",
             author: {
                 name: "Sophia Turner",
                 designation: "Founder at Santander",
             },
             stats: [
                 {
-                    number: "45 min",
-                    text: "To detect and respond, down from 2+ hours.",
+                    number: "Short Reels",
+                    text: "Contenu dynamique et moderne.",
                 },
                 {
-                    number: "99.9%",
-                    text: "Protection Near-total visibility against cyber threats.",
+                    number: "100%",
+                    text: "Rentable",
                 },
             ],
         },
@@ -126,24 +126,24 @@ const customerStories = [
     {
         left: {
             img: tsImg5,
-            subTitle: "customer story",
+            subTitle: "Avis Clients",
             logo: "assets/img/brand/brd-logo05.png",
             title: "Madrid Safeguards Against Cyber.",
         },
         right: {
-            content: "“Thanks to Innomax, we’ve greatly reduced our vulnerability to cyberattacks. Their advanced solutions give us confidence in our security strategy, ensuring robust protection against threats.”",
+            content: "“Waviloid a boosté notre visibilité avec des campagnes SEO et ADS incroyables ! On est aux anges, merci pour ce succès !”",
             author: {
                 name: "Sophia Turner",
                 designation: "Founder at Madrid",
             },
             stats: [
                 {
-                    number: "27 min",
-                    text: "to detect and prevent threats, down from 90 minutes.",
+                    number: "12 Heures",
+                    text: "leur suffit pour trouver les failles dans notre site.",
                 },
                 {
                     number: "97.7%",
-                    text: "uptime ensured through secure systems integration.",
+                    text: "Référencer sûrement et correctement.",
                 },
             ],
         },
