@@ -21,10 +21,10 @@ const ContactSection = (props) => {
                             <div className="cs-contact-wrap">
                                 <div className="xb-item--inner">
                                     <div className="sec-title--two sec-title--three mb-25">
-                                        <span className="sub-title"><img src={icon1} alt=""/><span>You are here</span></span>
-                                        <h2 className="title">Let's start</h2>
+                                        <span className="sub-title"><img src={icon1} alt=""/><span>Vous êtes ici</span></span>
+                                        <h2 className="title">Commençons</h2>
                                     </div>
-                                    <p className="xb-item--content">Initiating Your Journey to Success and Growth.</p>
+                                    <p className="xb-item--content">Initier votre voyage vers la réussite et la croissance.</p>
                                     <ul className="xb-item--cont_info list-unstyled">
                                         <li><span><img src={icon2} alt=""/></span>+(261) 34 51 101 20</li>
                                         <li><span className="clr-sky"><img src={icon3} alt=""/></span>communication@waviloidstudio.com</li>
@@ -39,8 +39,8 @@ const ContactSection = (props) => {
                         <div className="col-lg-7 mt-30">
                             <div className="cs-contact-wrap cs-contact-form">
                                 <div className="sec-title--two sec-title--three">
-                                    <span className="sub-title"><img src={icon5} alt=""/><span>Let’s connect!</span></span>
-                                    <h2 className="title">Send us a message, and we'll promptly <br/> discuss your project with you.</h2>
+                                    <span className="sub-title"><img src={icon5} alt=""/><span>Connectons-nous !</span></span>
+                                    <h2 className="title">Envoyez-nous un message <br/> et nous discuterons rapidement de votre projet avec vous.</h2>
                                 </div>
                                 <ContactForm/>
                             </div>

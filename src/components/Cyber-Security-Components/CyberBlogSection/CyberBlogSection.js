@@ -21,12 +21,12 @@ const CyberBlogSection = (props) => {
                 <div className="sec-title--two sec-title--three text-center mb-60">
                     <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                         <div>
-                            <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={hicon} alt="" /><span>Our blog post</span></span>
+                            <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={hicon} alt="" /><span>Notre article sur le blog</span></span>
                         </div>
                     </Fade>
                     <Fade direction='down' triggerOnce={'false'} duration={1200} delay={9}>
                         <div>
-                            <h2 className="title wow fadeInDown" data-wow-duration="600ms">Read our latest blog</h2>
+                            <h2 className="title wow fadeInDown" data-wow-duration="600ms">Lisez notre dernier blog</h2>
                         </div>
                     </Fade>
                 </div>

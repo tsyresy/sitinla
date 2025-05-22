@@ -106,7 +106,7 @@ const ContactForm = (props) => {
                 </div>
                 <div className="col-lg-12">
                     <div className="input-field text-field">
-                        <label htmlFor="text5">How can we help you today?</label>
+                        <label htmlFor="text5">En quoi pouvons-nous vous aider aujourd'hui ?</label>
                         <div className="input-box">
                             <textarea
                                 onBlur={(e) => changeHandler(e)}

@@ -94,11 +94,10 @@ const Header4 = (props) => {
                                                                                             <img src={icon2} alt="" />
                                                                                         </small>
                                                                                         <small
-                                                                                            className="iconbox_title">About
-                                                                                            Us</small>
+                                                                                            className="iconbox_title">A propos de Nous</small>
                                                                                     </span>
                                                                                     <span className="description mb-0">
-                                                                                        Learn more about Innomax
+                                                                                        En savoir plus sur Waviloid
                                                                                     </span>
                                                                                 </Link>
                                                                             </div>

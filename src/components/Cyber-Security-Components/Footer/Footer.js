@@ -46,14 +46,14 @@ const Footer = (props) => {
             <div className="footer-widget">
               <span className="xb-item--sub-title">Company</span>
               <ul className="xb-item--holder list-unstyled">
-                <li className="xb-item--list"><Link onClick={ClickHandler} to="/about">About us</Link></li>
+                <li className="xb-item--list"><Link onClick={ClickHandler} to="/about">À propos de nous</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/career">careers</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/home-4">Processes</Link></li>
-                <li className="xb-item--list"><Link onClick={ClickHandler} to="/contact">Contact us</Link></li>
+                <li className="xb-item--list"><Link onClick={ClickHandler} to="/contact">Contactez-nous</Link></li>
               </ul>
             </div>
             <div className="footer-widget">
-              <span className="xb-item--sub-title">Our Services</span>
+              <span className="xb-item--sub-title">Nos services</span>
               <ul className="xb-item--holder list-unstyled">
                 {Services.slice(14, 18).map((service, srv) => (
                   <li key={srv} className='xb-item--list'>
@@ -69,7 +69,7 @@ const Footer = (props) => {
             <div className="footer-widget">
               <span className="xb-item--sub-title">Resources</span>
               <ul className="xb-item--holder list-unstyled">
-                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">innomax Blog</Link></li>
+                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">Waviloid Blog</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/casestudy">Case Studies</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/home-4">Achievements</Link></li>
                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/home-4">Our industries</Link></li>
@@ -77,7 +77,7 @@ const Footer = (props) => {
             </div>
             <div className="sa-newslatter footer-widget">
               <span className="xb-item--sub-title">Newsletter</span>
-              <p className="xb-item--content clr-white">Sign up innomax for weekly updates.</p>
+              <p className="xb-item--content clr-white">Inscrivez-vous pour recevoir les mises à jour hebdomadaires.</p>
               <div className="xb-item--input-box">
                 <label htmlFor="text6">Email</label>
                 <form className="xb-item--input_field pos-rel" onSubmit={SubmitHandler}>
@@ -93,7 +93,7 @@ const Footer = (props) => {
               <Link onClick={ClickHandler} to="/">
                 Waviloid Studio
               </Link>
-              . All rights reserved.
+              . Tous droits réservés.
             </p>
             <p className="mt-20">Designed by <Link onClick={ClickHandler} to="/">Mahay Tsy Resy</Link></p>
           </div>
