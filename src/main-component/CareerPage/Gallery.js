@@ -19,9 +19,9 @@ const GallerySection = (props) => {
         <div className="sec-title--two text-center mb-60">
           <div className="sub-title">
             <img src={icon} alt="Eye Icon" />
-            Our gallery
+            Notre galerie
           </div>
-          <h2 className="title">Explore stunning moments</h2>
+          <h2 className="title">Découvrez des moments inoubliables</h2>
         </div>
         <div className="gallery-wrap ul_li">
           <div className="gallery-item gallery-item--one">

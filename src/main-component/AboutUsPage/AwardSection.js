@@ -28,24 +28,24 @@ const AwardSection = (props) => {
                             <div className="sec-title--two">
                                 <Fade direction='down' triggerOnce={'false'} duration={1000} delay={9}>
                                     <div>
-                                        <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={sIcon1} alt="" />Our awards</span>
+                                        <span className="sub-title wow fadeInDown" data-wow-duration="600ms"><img src={sIcon1} alt="" />Nos prix</span>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <h2 className="title wow skewIn" data-wow-delay="100ms" data-wow-duration="600ms">We've got prestigious awards for our work</h2>
+                                        <h2 className="title wow skewIn" data-wow-delay="100ms" data-wow-duration="600ms">Notre travail a été récompensé par des prix prestigieux</h2>
                                     </div>
                                 </Fade>
                                 <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                     <div>
-                                        <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">We've receiving prestigious awards for our work is a testament to our  unwavering dedication and commitment to excellence. These accolades  reflect the tireless efforts and passion .</p>
+                                        <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">Le fait que nous ayons reçu des prix prestigieux pour notre travail témoigne de notre dévouement inébranlable et de notre engagement en faveur de l'excellence. Ces distinctions reflètent les efforts inlassables et la passion .</p>
                                     </div>
                                 </Fade>
                             </div>
                             <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                                 <div>
                                     <div className="xb-btn mt-50 wow fadeInUp" data-wow-delay="450ms" data-wow-duration="600ms">
-                                        <Link to="/contact" onClick={ClickHandler} className="thm-btn thm-btn--aso thm-btn--aso_yellow">Book a free consultation</Link>
+                                        <Link to="/contact" onClick={ClickHandler} className="thm-btn thm-btn--aso thm-btn--aso_yellow">Réservez une consultation gratuite</Link>
                                     </div>
                                 </div>
                             </Fade>

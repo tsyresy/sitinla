@@ -11,19 +11,19 @@ const FunfactSection = (props) => {
                     <div className="col-lg-4 col-md-4 mt-30">
                         <div className="ap-fanfact-item wow fadeInUp" data-wow-delay="0ms" data-wow-duration="600ms">
                             <h2 className="xb-item--number"><CountUp end={120} enableScrollSpy />+</h2>
-                            <span className="xb-item--text">success stories</span>
+                            <span className="xb-item--text">exemples de réussites</span>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 mt-30">
                         <div className="ap-fanfact-item ap-fanfact-item--middle wow fadeInUp" data-wow-delay="200ms" data-wow-duration="600ms">
                             <h2 className="xb-item--number"><CountUp end={1.2} enableScrollSpy />k</h2>
-                            <span className="xb-item--text">companies trust us</span>
+                            <span className="xb-item--text">les entreprises nous font confiance</span>
                         </div>
                     </div>
                     <div className="col-lg-4 col-md-4 mt-30">
                         <div className="ap-fanfact-item ap-fanfact-item--last wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
                             <h2 className="xb-item--number"><CountUp end={100} enableScrollSpy />%</h2>
-                            <span className="xb-item--text">results guaranteed</span>
+                            <span className="xb-item--text">des résultats garantis</span>
                         </div>
                     </div>
                 </div>

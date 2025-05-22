@@ -26,14 +26,17 @@ const AboutUsPage = (props) => {
                             <div className="row mt-none-30 align-items-end">
                                 <div className="col-xl-9 col-lg-8 mt-30">
                                     <div className="page-title-box">
-                                        <span className="sub-title"><img src={icon} alt="" /> About Innomax</span>
-                                        <h2 className="title">Unlocking new heights of online success: how our SEO agency transforms visibility and growth</h2>
+                                        <span className="sub-title"><img src={icon} alt="" /> A propos de Waviloid Studio</span>
+                                        <h2 className="title">Depuis plus de 5 ans, Waviloid Studio
+                                            redéfinit l’excellence en marketing digital et création audiovisuelle.
+                                            Nous sommes l’allié des marques audacieuses qui veulent se démarquer,
+                                            surprendre et convertir.</h2>
                                     </div>
                                 </div>
                                 <div className="col-xl-3 col-lg-4 mt-30">
                                     <div className="count-box">
-                                        <h2 className="number">12 <span className="suffix">+</span></h2>
-                                        <span className="text">Years of experience</span>
+                                        <h2 className="number">10 <span className="suffix">+</span></h2>
+                                        <span className="text">Années d'expérience</span>
                                     </div>
                                 </div>
                             </div>

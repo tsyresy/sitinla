@@ -54,10 +54,10 @@ const Footer = (props) => {
                     <div className="footer-inner mt-70 mb-100 ul_li_between align-items-start">
                         <div className="sa-newslatter footer-widget">
                             <span className="xb-item--sub-title">Newsletter</span>
-                            <p className="xb-item--content clr-white">Sign up to techco weekly newsletter to get the latest
-                                updates.</p>
+                            <p className="xb-item--content clr-white">inscrivez-vous à la lettre d'information
+                                hebdomadaire de waviloid pour recevoir les dernières mises à jour</p>
                             <form className="xb-item--input_field pos-rel" onSubmit={SubmitHandler}>
-                                <input type="email" name="gmail" id="text6" placeholder="enter your email" />
+                                <input type="email" name="gmail" id="text6" placeholder="entrez votre e-mail" />
                                 <div className="img"><img src={icon4} alt="" /></div>
                                 <button type="submit" className="xb-item--btn"><i className="fas fa-paper-plane"></i></button>
                             </form>
@@ -67,12 +67,12 @@ const Footer = (props) => {
                         <div className="footer-widget">
                             <span className="xb-item--sub-title">Company</span>
                             <ul className="xb-item--holder list-unstyled">
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/about">About us</Link></li>
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/contact">About us</Link></li>
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/pricing">Price table</Link></li>
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">Our blog</Link></li>
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/team">Team member</Link></li>
-                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/casestudy">Our Cases</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/about">Qui sommes-nous ?</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/contact">Nous Contacter</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/pricing">Tarification</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/blog">Notre blog</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/team">Membres de l'équipe</Link></li>
+                                <li className="xb-item--list"><Link onClick={ClickHandler} to="/casestudy">Nos dossiers</Link></li>
                             </ul>
                         </div>
                         <div className="footer-widget">
@@ -92,7 +92,7 @@ const Footer = (props) => {
                             </ul>
                         </div>
                         <div className="footer-widget">
-                            <span className="xb-item--sub-title">Our Industries</span>
+                            <span className="xb-item--sub-title">Nos secteurs d'activité</span>
                             <ul className="xb-item--holder list-unstyled">
                                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/">Healthcare</Link></li>
                                 <li className="xb-item--list"><Link onClick={ClickHandler} to="/">Lawyers</Link></li>

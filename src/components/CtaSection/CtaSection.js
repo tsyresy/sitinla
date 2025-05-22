@@ -19,11 +19,11 @@ const CtaSection = (props) => {
                             <div>
                                 <div className="xb-item--holder wow fadeInLeft" data-wow-delay="100ms"
                                     data-wow-duration="600ms">
-                                    <h2 className="xb-item--title">Stop wasting money on bad SEO.</h2>
-                                    <span className="xb-item--content">Book a free consultation for the SEO results you
-                                        need.</span>
+                                    <h2 className="xb-item--title">Arrêtez de gaspiller de l'argent avec un mauvais référencement.</h2>
+                                    <span className="xb-item--content">Réservez une consultation gratuite pour obtenir
+                                        les résultats de référencement dont vous avez besoin.</span>
                                     <div className="xb-btn mt-45">
-                                        <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--aso thm-btn--aso_white">Book a free consultation</Link>
+                                        <Link onClick={ClickHandler} to="/contact" className="thm-btn thm-btn--aso thm-btn--aso_white">Réservez une consultation gratuite</Link>
                                     </div>
                                 </div>
                             </div>

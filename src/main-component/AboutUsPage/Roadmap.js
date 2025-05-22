@@ -17,52 +17,53 @@ const RoadmapSlider = () => {
     const roadmapData = [
         {
             quarter: "Q-1",
-            year: "2012",
-            title: "Innomax was founded",
+            year: "2018",
+            title: "Le studio Waviloid a été fondé",
             content:
-                "Innomax started in USA with only five employees. All working from the cheapest office we could find (with hideous green walls, fluorescent lighting, and no windows).",
+                "Waviloid Studio ouvre ses portes à Madagascar avec une équipe de 3 passionnés, installée dans un bureau spartiate aux murs verts douteux et sans fenêtres. Premiers clients, premières créations : des sites web et designs audacieux, malgré les lampes fluorescentes. L’aventure commence.",
         },
         {
             quarter: "Q-2",
-            year: "2014",
-            title: "We grew to 40 full-time employees",
+            year: "2019",
+            title: "Fenêtres sur l’avenir (et enfin de la lumière naturelle !)",
             content:
-                "In 2014, Innomax completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
+                "L’équipe passe à 7 talents, et le bureau s’offre un lifting (avec fenêtres !). Nous réalisons 100+ audits SEO, sauvant des clients des griffes de Google Penguin. Premières campagnes virales, premiers sourires de clients satisfaits.",
         },
         {
             quarter: "Q-3",
-            year: "2016",
-            title: "Ranked one of the top 3 SEO Company",
+            year: "2020",
+            title: "Top 3 du SEO en France : la consécration",
             content:
-                "By 2016, our hard work was starting to be recognized – as we were rated one of the top 3 SEO companies in Ukraine. At this point, we had about 60 employees working full-time on client projects.",
+                "Classés parmi les 3 meilleures agences SEO, nous passons à 25 collaborateurs. Malgré le confinement, nous boostons des marques avec des stratégies digitales sur-mesure. Le motion design devient notre arme secrète.",
         },
         {
             quarter: "Q-4",
-            year: "2018",
-            title: "Sharing Our SEO Expertise Globally",
+            year: "2021",
+            title: "Du local à l’international : l’art sans frontières",
             content:
-                "By 2018, InnoMax attracted a primarily international clientele from countries like the US, UK, Australia, Norway, and Japan. They also began sharing their SEO expertise globally, speaking at conferences like the Chiang Mai SEO Conference and LRT Conference.",
+                "Ouverture de notre pôle marketing international avec des clients en Europe et en Afrique. Lancement de nos ateliers créatifs pour startups. Waviloid n’est plus un secret : nos designs animés font le buzz.\n" +
+                "\n",
         },
         {
             quarter: "Q-5",
-            year: "2024",
-            title: "Present",
+            year: "2022",
+            title: "Prix de l’Agence Créative de l’Année",
             content:
-                "Today, InnoMax has over 200 employees, mostly based in Ukraine, who continue working full-time despite the war. The company supports its staff from afar while donating proceeds to the army.",
+                "Sacrés \"Meilleure Agence Créative\" au Madagascar Digital Awards, nous lançons notre département réalisation vidéo. Tournage de spots TV, podcasts branding, et premières collaborations avec des influenceurs.",
         },
         {
-            quarter: "Q-2",
-            year: "2014",
-            title: "We grew to 40 full-time employees",
+            quarter: "Q-6",
+            year: "2023",
+            title: "L’intelligence artificielle est notre alliée.",
             content:
-                "In 2014, Innomax completed over 100 SEO audits, helping clients recover from Google Penguin penalties. It was also the year they upgraded their office—now with windows—marking a new phase of growth for the company.",
+                "Intégration de l’IA dans nos processus créatifs (generative design, chatbots sur-mesure). Nos campagnes SMM génèrent +200% d’engagement. L’équipe dépasse 50 membres, et notre bureau a désormais… un baby-foot.",
         },
         {
-            quarter: "Q-3",
-            year: "2016",
-            title: "Ranked one of the top 3 SEO Company",
+            quarter: "Q-7",
+            year: "2025",
+            title: "Waviloid Studio : L’Empire Créatif",
             content:
-                "By 2016, our hard work was starting to be recognized – as we were rated one of the top 3 SEO companies in Ukraine. At this point, we had about 60 employees working full-time on client projects.",
+                "Avec 100+ employés et des clients dans 12 pays, nous inaugurent notre Labs Innovation dédié à la réalité virtuelle. Objectif : réinventer le marketing sensoriel. Votre succès reste notre meilleure récompense.",
         },
     ];
 
@@ -71,8 +72,8 @@ const RoadmapSlider = () => {
             <div className="container">
                 <div className="sa-tes_top roadmap-top pos-rel mb-85">
                     <div className="sec-title--two">
-                        <div className="sub-title sub-title--strock wow fadeInDown" data-wow-duration="600ms"><img src="assets/img/icon/process-icon.svg" alt="" />Our Journey</div>
-                        <h2 className="title clr-white wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">Our Journey 0 to 200 Clients</h2>
+                        <div className="sub-title sub-title--strock wow fadeInDown" data-wow-duration="600ms"><img src="assets/img/icon/process-icon.svg" alt="" />Notre parcours</div>
+                        <h2 className="title clr-white wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">Notre parcours 0 à 1300 clients</h2>
                     </div>
                     <div className="sa-tes_button roadmap-button">
                         <div className="sa-swiper-btn swiper-button-prev" ref={prevRef}><i className="fal fa-angle-left"></i></div>
