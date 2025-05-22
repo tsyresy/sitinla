@@ -9,17 +9,17 @@ import sIcon4 from '../../../images/award/img04.png'
 const Award = [
     {
         icon: sIcon1,
-        title: 'Best Network Security 2023',
+        title: 'Best Network Security 2019',
         duration:800,
     },
     {
         icon: sIcon2,
-        title: 'Cyber Defense Leader 2022',
+        title: 'Meilleure agence SEO en 2020.',
         duration:900,
     },
     {
         icon: sIcon3,
-        title: 'Data Protection Awards 2020',
+        title: 'Meilleure agence créative en 2022',
         duration:1000,
     },
     {

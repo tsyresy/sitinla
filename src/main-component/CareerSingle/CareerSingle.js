@@ -188,7 +188,7 @@ const CareerSingle = (props) => {
                                                     <p className="xb-item--content"><span>Accepted file types :</span> pdf, doc, jpg, Max. file size: 15 MB.</p>
                                                 </div>
                                                 <div className="cp-det-btn mt-20">
-                                                    <button className="cp-btn">Submit now <i className="fal fa-arrow-right"></i></button>
+                                                    <button className="cp-btn">Soumettre <i className="fal fa-arrow-right"></i></button>
                                                 </div>
                                             </div>
                                         </form>

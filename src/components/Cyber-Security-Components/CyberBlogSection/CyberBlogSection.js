@@ -53,7 +53,7 @@ const CyberBlogSection = (props) => {
                 </div>
                 <div className="xb-btn mt-60 text-center wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">
                     <Link onClick={ClickHandler} to="/blog" className="blc-btn blc-btn--gardiant">
-                        <span>See more blog <i className="far fa-angle-right"></i></span>
+                        <span>Voir d'autres blogs <i className="far fa-angle-right"></i></span>
                         <span className="btn-shape">
                             <svg width="271" height="60" viewBox="0 0 271 60" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M0.5 17.2308L20.1225 0.5H252.042L270.5 17.2217V43.7692L252.05 59.5H20.1225L0.5 42.7692V17.2308Z" fill="#010315" stroke="url(#paint0_linear_1742_66145)"></path>

@@ -123,7 +123,7 @@ const ContactForm = (props) => {
             </div>
             <div className="contact-btn">
                 <button type="submit" className="blc-btn">
-                    <span>Submit now <i className="far fa-angle-right"></i></span>
+                    <span>Soumettre <i className="far fa-angle-right"></i></span>
                     <span className="btn-shape">
                         <svg width="362" height="78" viewBox="0 0 362 78" fill="none" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M0.5 22.7183L25.5093 1.39453H337.972L361.5 22.7092V56.5515L337.98 76.6051H25.5093L0.5 55.2813V22.7183Z" fill="url(#paint0_linear_1600_9966932)" stroke="#23263C" />
