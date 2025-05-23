@@ -7,7 +7,7 @@ import icon5 from '../../images/icon/m_04.svg'
 import icon6 from '../../images/icon/m_05.svg'
 import icon7 from '../../images/icon/m_06.svg'
 import icon8 from '../../images/icon/m_07.svg'
-import icon9 from '../../images/icon/m_08.svg'
+// import icon9 from '../../images/icon/m_08.svg'
 import icon10 from '../../images/icon/m_09.svg'
 import icon11 from '../../images/icon/m_10.svg'
 import icon12 from '../../images/icon/m_11.svg'
@@ -184,28 +184,28 @@ const Header4 = (props) => {
                                                                                             <img src={icon8} alt="" />
                                                                                         </small>
                                                                                         <small
-                                                                                            className="iconbox_title">Career</small>
+                                                                                            className="iconbox_title">Digital Camp</small>
                                                                                     </span>
                                                                                     <span className="description mb-0">
-                                                                                        Happy to help you! </span>
+                                                                                        Devenez expert ou recrutez ! </span>
                                                                                 </Link>
                                                                             </div>
-                                                                            <div className="col-xl-4 col-md-4">
-                                                                                <Link onClick={ClickHandler} className="iconbox_block_2"
-                                                                                    to="/career-details">
-                                                                                    <span className="icon_title_wrap">
-                                                                                        <small className="iconbox_icon">
-                                                                                            <img src={icon9} alt="" />
-                                                                                        </small>
-                                                                                        <small
-                                                                                            className="iconbox_title">Career
-                                                                                            details</small>
-                                                                                    </span>
-                                                                                    <span className="description mb-0"> We
-                                                                                        are friendly Join our
-                                                                                        team.</span>
-                                                                                </Link>
-                                                                            </div>
+                                                                            {/*<div className="col-xl-4 col-md-4">*/}
+                                                                            {/*    <Link onClick={ClickHandler} className="iconbox_block_2"*/}
+                                                                            {/*        to="/career-details">*/}
+                                                                            {/*        <span className="icon_title_wrap">*/}
+                                                                            {/*            <small className="iconbox_icon">*/}
+                                                                            {/*                <img src={icon9} alt="" />*/}
+                                                                            {/*            </small>*/}
+                                                                            {/*            <small*/}
+                                                                            {/*                className="iconbox_title">Career*/}
+                                                                            {/*                details</small>*/}
+                                                                            {/*        </span>*/}
+                                                                            {/*        <span className="description mb-0"> We*/}
+                                                                            {/*            are friendly Join our*/}
+                                                                            {/*            team.</span>*/}
+                                                                            {/*    </Link>*/}
+                                                                            {/*</div>*/}
                                                                             <div className="col-xl-4 col-md-4">
                                                                                 <Link onClick={ClickHandler} className="iconbox_block_2"
                                                                                     to="/casestudy-details/Marketing">
@@ -260,8 +260,7 @@ const Header4 = (props) => {
                                                                         className="btns_group p-0 unordered_list justify-content-start">
                                                                         <li>
                                                                             <Link onClick={ClickHandler} to="/contact"
-                                                                                className="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Get
-                                                                                free consultation</Link>
+                                                                                className="thm-btn thm-btn--aso megamenu-btn thm-btn--header-black">Consulter gratuitement</Link>
                                                                         </li>
                                                                         <li>
                                                                             <div className="review_short_info_2">
@@ -324,19 +323,18 @@ const Header4 = (props) => {
                                                                                 </div>
                                                                                 <div className="author_box_content">
                                                                                     <h3 className="author_name text-white">
-                                                                                        Maverick Phoenix</h3>
+                                                                                        Mahay Tsy Resy</h3>
                                                                                     <span
                                                                                         className="author_designation text-white">CEO
-                                                                                        At Innomax</span>
+                                                                                        At Waviloid</span>
                                                                                 </div>
                                                                             </div>
-                                                                            <p className="mb-0 text-white">“As a CEO at
-                                                                                innomax I have been voice crying in the
-                                                                                wilderness, trying to make requirements
-                                                                                clear, use every minute to deliver the
-                                                                                result, and not reinvent the wheel. Here
-                                                                                at innomax, I made that possible for the
-                                                                                clients”. </p>
+                                                                            <p className="mb-0 text-white">“En tant que PDG de Waviloid,
+                                                                                j'ai été une voix qui criait dans le désert, essayant de
+                                                                                clarifier les exigences, d'utiliser chaque minute pour
+                                                                                obtenir le résultat, et de ne pas réinventer la roue.
+                                                                                Ici, à Waviloid Studio, j'ai rendu cela
+                                                                                possible pour les clients.”. </p>
                                                                             <div className="author_box_quote">
                                                                                 <img src={quote} alt="" />
                                                                             </div>
@@ -477,9 +475,8 @@ const Header4 = (props) => {
                                                                                 </li>
                                                                             </ul>
                                                                         </div>
-                                                                        <p className="career_link m-0">Looking for new
-                                                                            career? <Link onClick={ClickHandler} to="/career">We’re
-                                                                                Hiring</Link></p>
+                                                                        <p className="career_link m-0">Le saviez-vous ?
+                                                                            <Link onClick={ClickHandler} to="/career">Devenez expert ou recrutez !</Link></p>
                                                                     </div>
                                                                 </div>
                                                                 <div className="col-xl-3">

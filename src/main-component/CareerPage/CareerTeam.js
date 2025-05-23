@@ -86,14 +86,14 @@ const CareerTeam = () => {
                         <div>
                             <div className="sub-title wow fadeInDown" data-wow-duration="600ms">
                                 <img src={cIcon1} alt="icon" />
-                                Open Positions
+                                Plusieurs possibilités sont à explorer.
                             </div>
                         </div>
                     </Fade>
                     <Fade direction='up' triggerOnce={'false'} duration={1200} delay={9}>
                         <div>
                             <h2 className="title wow fadeInDown" data-wow-delay="150ms" data-wow-duration="600ms">
-                                Join our team
+                                Vous avez la possibilité de devenir un expert.
                             </h2>
                         </div>
                     </Fade>

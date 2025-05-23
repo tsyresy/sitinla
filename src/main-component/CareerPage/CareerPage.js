@@ -29,8 +29,8 @@ const CareerPage = (props) => {
                             <div className="row mt-none-30 align-items-center">
                                 <div className="col-lg-8 mt-30">
                                     <div className="page-title-box">
-                                        <span className="sub-title"><img src={icon} alt="" />Careers</span>
-                                        <h2 className="title">Be a part of shaping the <br /> future & career opportunities <br /> at Innomax today.</h2>
+                                        <span className="sub-title"><img src={icon} alt="" />Waviloid Digital Camp</span>
+                                        <h2 className="title">Rejoignez-nous dès aujourd'hui <br /> pour participer à l'élaboration <br/> de l'avenir et des opportunités <br/> de carrière chez Waviloid.</h2>
                                     </div>
                                 </div>
                                 <div className="col-lg-4 mt-30">
@@ -77,7 +77,7 @@ const CareerPage = (props) => {
                                     Your browser does not support the video tag.
                                 </video>
                             </div>
-                            <h2 className="title">innomax</h2>
+                            <h2 className="title">Waviloid</h2>
                         </div>
                     </div>
                 </div>
