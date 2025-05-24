@@ -11,7 +11,6 @@ import gImg3 from '../../images/gallery/cp-img03.jpg'
 import gImg4 from '../../images/gallery/cp-img04.jpg'
 import gImg5 from '../../images/gallery/cp-img05.jpg'
 import gImg6 from '../../images/gallery/cp-img06.jpg'
-import Video from '../../images/video.mp4'
 import Process from './Process';
 import CareerTeam from './CareerTeam';
 import WorkSection from '../TeamPage/work';
@@ -72,9 +71,13 @@ const CareerPage = (props) => {
                                     muted
                                     playsInline
                                     autoPlay
+                                    // Suppression totale des contrôles visuels
                                 >
-                                    <source src={Video} type="video/mp4" />
-                                    Your browser does not support the video tag.
+                                    <source
+                                        src="https://res.cloudinary.com/djillj6xt/video/upload/f_auto,q_auto/v1748127664/video2_miuvhl.mp4"
+                                        type="video/mp4"
+                                    />
+                                    Votre navigateur ne prend pas en charge les vidéos HTML5.
                                 </video>
                             </div>
                             <h2 className="title">Waviloid</h2>
