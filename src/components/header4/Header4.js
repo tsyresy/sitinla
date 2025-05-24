@@ -506,13 +506,13 @@ const Header4 = (props) => {
                                             </li>
                                         </ul>
                                     </li>
-                                    <li className="menu-item-has-children">
-                                        <Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link>
-                                        <ul className="submenu">
-                                            <li><Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link></li>
-                                            <li><Link onClick={ClickHandler} to="/casestudy-details/Marketing"><span>Casestudy Details</span></Link></li>
-                                        </ul>
-                                    </li>
+                                    {/*<li className="menu-item-has-children">*/}
+                                    {/*    <Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link>*/}
+                                    {/*    <ul className="submenu">*/}
+                                    {/*        <li><Link onClick={ClickHandler} to="/casestudy"><span>Casestudy</span></Link></li>*/}
+                                    {/*        <li><Link onClick={ClickHandler} to="/casestudy-details/Marketing"><span>Casestudy Details</span></Link></li>*/}
+                                    {/*    </ul>*/}
+                                    {/*</li>*/}
                                     <li className="menu-item-has-children">
                                         <Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link>
                                         <ul className="submenu">
