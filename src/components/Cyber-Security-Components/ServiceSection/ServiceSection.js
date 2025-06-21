@@ -85,7 +85,6 @@ const ServiceSection = (props) => {
                   <Link onClick={ClickHandler} to={`/service-single/${service.slug}`} className="xb-overlay xb-overlay-link"></Link>
                 </div>
               ))}
-
             </div>
             <div className="col-lg-4">
               {Services.slice(16, 17).map((service, index) => (

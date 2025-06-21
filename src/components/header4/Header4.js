@@ -513,13 +513,13 @@ const Header4 = (props) => {
                                     {/*        <li><Link onClick={ClickHandler} to="/casestudy-details/Marketing"><span>Casestudy Details</span></Link></li>*/}
                                     {/*    </ul>*/}
                                     {/*</li>*/}
-                                    <li className="menu-item-has-children">
-                                        <Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link>
-                                        <ul className="submenu">
-                                            <li><Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link></li>
-                                            <li><Link onClick={ClickHandler} to="/blog-single/AI-in-Neuroimaging-IXICOs-Cloud-Transformation"><span>Blog Details</span></Link></li>
-                                        </ul>
-                                    </li>
+                                    {/*<li className="menu-item-has-children">*/}
+                                    {/*    <Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link>*/}
+                                    {/*    <ul className="submenu">*/}
+                                    {/*        <li><Link onClick={ClickHandler} to="/blog"><span>Blog</span></Link></li>*/}
+                                    {/*        <li><Link onClick={ClickHandler} to="/blog-single/AI-in-Neuroimaging-IXICOs-Cloud-Transformation"><span>Blog Details</span></Link></li>*/}
+                                    {/*    </ul>*/}
+                                    {/*</li>*/}
                                     <li><Link onClick={ClickHandler} to="/contact"><span>Contact</span></Link></li>
                                 </ul>
                             </nav>
