@@ -66,13 +66,21 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-ser-content_wrap pb-110">
                         <div className="container">
                             <div className="sd-ser-content">
-                                <h2 className="sd-title">Boost your authority with link building</h2>
+                                <h2 className="sd-title">Donnez vie à Vos Vidéos avec un Montage Professionnel</h2>
                                 <p className="sd-content">
-                                    In today’s competitive digital landscape, link building is essential for enhancing your website's authority and visibility. By acquiring high-quality backlinks from reputable sources, you not only improve your search engine rankings but also establish credibility within your industry. This strategic approach involves identifying relevant opportunities, fostering relationships with influential websites, and creating valuable content that encourages organic links. As your backlink profile grows, so does your domain authority, leading to increased organic traffic and greater trust from both users and search engines
+                                    Dans un monde où le contenu vidéo domine, un montage percutant fait la différence
+                                    entre une vidéo oubliable et un message qui marque les esprits. Notre service de
+                                    montage vidéo transforme vos rushs en histoires captivantes, optimisées pour l’engagement
+                                    et la conversion. Que ce soit pour des vidéos corporate, des publicités ou des contenus réseaux sociaux,
+                                    nous combinons technique et storytelling pour maximiser l’impact de chaque image.
                                 </p>
                                 <br />
                                 <p className="sd-content">
-                                    Finally, consistently monitor your progress through analytics, adjusting your tactics as needed to maximize results. By focusing on quality over quantity, you can cultivate a robust network of backlinks that significantly boosts your site's authority and enhances its overall performance in search engine results.Implement a targeted outreach campaign to connect with relevant websites and industry influencers, emphasizing the value your content brings.
+                                    L'impact d'un bon montage se mesure en chiffres : +53% de rétention d'attention,
+                                    +34% de taux de conversion*. Que ce soit pour une vidéo corporate, une campagne
+                                    publicitaire ou du contenu social éphémère, nous appliquons les principes du storytelling
+                                    cinématographique combinés aux meilleures pratiques digitales. Le résultat ? Des vidéos
+                                    qui non seulement se regardent, mais se partagent et génèrent des résultats concrets.
                                 </p>
                             </div>
                         </div>
@@ -80,32 +88,33 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-process_warp">
                         <div className="container">
                             <div className="sd-heading">
-                                <h2 className="sd-title">Service process</h2>
-                                <p className="sd-content">Our service process begins with a thorough consultation and website audit, followed by competitor analysis to inform a tailored marketing campaign. We maintain regular communication and provide comprehensive reporting to ensure optimal results and continuous improvement.</p>
+                                <h2 className="sd-title">Notre Processus</h2>
+                                <p className="sd-content">Notre expertise en montage vidéo allie précision technique et
+                                    créativité pour sublimer vos contenus, avec une approche sur-mesure alignée sur vos ambitions</p>
                             </div>
                             <div className="sd-process_inner ul_li">
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg1} alt="" /></div>
-                                    <h3 className="xb-item--title">Initial website audit</h3>
-                                    <p className="xb-item--contact">Assess your website's SEO performance and backlink.</p>
+                                    <h3 className="xb-item--title">Brief & Sélection</h3>
+                                    <p className="xb-item--contact">Analyse de vos objectifs et sélection des meilleures prises.</p>
                                     <span className="xb-item--number">01</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg2} alt="" /></div>
-                                    <h3 className="xb-item--title">Competitor analysis</h3>
-                                    <p className="xb-item--contact">Analyze link strategies to find valuable opportunities.</p>
+                                    <h3 className="xb-item--title">Structuration Narrative</h3>
+                                    <p className="xb-item--contact">Découpage scénaristique et choix des séquences clés.</p>
                                     <span className="xb-item--number">02</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg3} alt="" /></div>
-                                    <h3 className="xb-item--title">Targeted campaign</h3>
-                                    <p className="xb-item--contact">Connect with relevant sites to secure quality backlinks.</p>
+                                    <h3 className="xb-item--title">Montage & Effets</h3>
+                                    <p className="xb-item--contact">Montage,Ajout de transitions, musique, effets visuels et sous-titres.</p>
                                     <span className="xb-item--number">03</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg4} alt="" /></div>
-                                    <h3 className="xb-item--title">Reporting</h3>
-                                    <p className="xb-item--contact">Track performance and provide regular progress updates.</p>
+                                    <h3 className="xb-item--title">Livraison Optimisée</h3>
+                                    <p className="xb-item--contact">Export aux formats adaptés à chaque plateforme (vertical, horizontal, court/long format).</p>
                                     <span className="xb-item--number">04</span>
                                 </div>
                                 <div className="sd-shape"><img src={shape} alt="" /></div>
@@ -116,19 +125,19 @@ const ServiceSinglePage = (props) => {
                         <div className="container">
                             <div className="sd-ser-outcome">
                                 <div className="sd-heading">
-                                    <h2 className="sd-title">Services outcome</h2>
-                                    <p className="sd-content">Here are six key points related to "Boost Your Authority with Link Building" in the context of digital transformation and risk management <br /> solutions for Fortune 500 companies, with a bit more detail:</p>
+                                    <h2 className="sd-title">Résultats Clés</h2>
+                                    <p className="sd-content">Le Top du top ! Ce n'est pas une vidéo de plus, c'est votre meilleur argument de vente en mouvement</p>
                                 </div>
                                 <div className="sd-list-item ul_li">
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Enhance Credibility and Trust.</li>
-                                        <li><img src={sicon} alt="" />Improve Search Engine Rankings.</li>
-                                        <li><img src={sicon} alt="" />Foster Strategic Partnerships.</li>
+                                        <li><img src={sicon} alt="" />Engagement accru</li>
+                                        <li><img src={sicon} alt="" />Message clarifié</li>
+                                        <li><img src={sicon} alt="" />Identité renforcée</li>
                                     </ul>
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Showcase Thought Leadership.</li>
-                                        <li><img src={sicon} alt="" />Drive Targeted Traffic.</li>
-                                        <li><img src={sicon} alt="" />Support Long-Term Growth.</li>
+                                        <li><img src={sicon} alt="" />Conversion boostée </li>
+                                        <li><img src={sicon} alt="" />Polyvalence assurée</li>
+                                        <li><img src={sicon} alt="" />Gain de temps</li>
                                     </ul>
                                 </div>
                             </div>
