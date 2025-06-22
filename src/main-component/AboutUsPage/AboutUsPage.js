@@ -27,7 +27,9 @@ const AboutUsPage = (props) => {
                                 <div className="col-xl-9 col-lg-8 mt-30">
                                     <div className="page-title-box">
                                         <span className="sub-title"><img src={icon} alt="" /> A propos de Waviloid Studio</span>
-                                        <h2 className="title">Depuis plus de 5 ans, Waviloid Studio
+                                        <h2 className="title"> Agence Marketing à Madagascar et France.
+                                            <br/>
+                                            Depuis plus de 5 ans, Waviloid Studio
                                             redéfinit l’excellence en marketing digital et création audiovisuelle.
                                             Nous sommes l’allié des marques audacieuses qui veulent se démarquer,
                                             surprendre et convertir.</h2>

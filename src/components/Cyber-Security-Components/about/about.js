@@ -36,7 +36,9 @@ const About = (props) => {
                                     </Fade>
                                     <Fade direction='up' triggerOnce={'false'} duration={1400} delay={9}>
                                         <div>
-                                            <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms">Depuis plus de 5 ans, Waviloid Studio redéfinit l’excellence en marketing digital et création audiovisuelle. 🔥
+                                            <p className="content wow fadeInUp" data-wow-delay="300ms" data-wow-duration="600ms"> Agence Marketing à Madagascar et France.
+                                                <br/>
+                                                Depuis plus de 5 ans, Waviloid Studio redéfinit l’excellence en marketing digital et création audiovisuelle. 🔥
                                                 Nous sommes l’allié des marques audacieuses qui veulent se démarquer, surprendre et convertir. Notre ADN ? Un mélange explosif de créativité visuelle, de stratégies data-driven et de solutions fiables, conçues pour maximiser votre ROI. Sites web sur mesure, campagnes virales, motion design hypnotique ou identités graphiques mémorables : chaque projet est pensé pour capter les regards, provoquer des émotions et transformer les audiences en clients.</p>
                                         </div>
                                     </Fade>
