@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 import ModalVideo from 'react-modal-video'
 import Header4 from '../../components/header4/Header4';
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import CtaSection from '../../components/CtaSection/CtaSection';
 import Bg from '../../images/bg/page_bg01.jpg'
 import icon from '../../images/icon/ser-01.svg'
 import srImg from '../../images/shape/brd_shape.png'
@@ -65,13 +64,24 @@ const ServiceSinglePageWeb = (props) => {
                     <div className="sd-ser-content_wrap pb-110">
                         <div className="container">
                             <div className="sd-ser-content">
-                                <h2 className="sd-title">Boost your authority with link building</h2>
+                                <h2 className="sd-title">Développement Web sur Mesure avec UI/UX Optimisé</h2>
                                 <p className="sd-content">
-                                    In today’s competitive digital landscape, link building is essential for enhancing your website's authority and visibility. By acquiring high-quality backlinks from reputable sources, you not only improve your search engine rankings but also establish credibility within your industry. This strategic approach involves identifying relevant opportunities, fostering relationships with influential websites, and creating valuable content that encourages organic links. As your backlink profile grows, so does your domain authority, leading to increased organic traffic and greater trust from both users and search engines
+                                    Dans un monde où 75% des jugements de crédibilité d'une entreprise se basent sur son site web,
+                                    une présence digitale performante n'est plus une option, mais une nécessité.
+                                    Notre service de développement web sur mesure combine technologie robuste et
+                                    design intuitif pour créer des expériences utilisateur qui convertissent.
+                                    Chaque ligne de code et chaque interface sont pensées pour maximiser l'engagement,
+                                    tout en respectant les meilleures pratiques SEO et techniques.
                                 </p>
                                 <br />
                                 <p className="sd-content">
-                                    Finally, consistently monitor your progress through analytics, adjusting your tactics as needed to maximize results. By focusing on quality over quantity, you can cultivate a robust network of backlinks that significantly boosts your site's authority and enhances its overall performance in search engine results.Implement a targeted outreach campaign to connect with relevant websites and industry influencers, emphasizing the value your content brings.
+                                    Les chiffres parlent d'eux-mêmes :
+
+                                    Jusqu'à 200% d'augmentation des conversions avec une UX optimisée
+
+                                    40% de rebond en moins sur les sites mobiles performants
+
+                                    50% de temps de développement réduit grâce à nos frameworks maison
                                 </p>
                             </div>
                         </div>
@@ -79,32 +89,32 @@ const ServiceSinglePageWeb = (props) => {
                     <div className="sd-process_warp">
                         <div className="container">
                             <div className="sd-heading">
-                                <h2 className="sd-title">Service process</h2>
-                                <p className="sd-content">Our service process begins with a thorough consultation and website audit, followed by competitor analysis to inform a tailored marketing campaign. We maintain regular communication and provide comprehensive reporting to ensure optimal results and continuous improvement.</p>
+                                <h2 className="sd-title">Notre Processus </h2>
+                                <p className="sd-content">Prêt à transformer votre présence digitale ? </p>
                             </div>
                             <div className="sd-process_inner ul_li">
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg1} alt="" /></div>
-                                    <h3 className="xb-item--title">Initial website audit</h3>
-                                    <p className="xb-item--contact">Assess your website's SEO performance and backlink.</p>
+                                    <h3 className="xb-item--title">Audit & Stratégie</h3>
+                                    <p className="xb-item--contact">Analyse de vos besoins, benchmark concurrentiel et définition des KPIs</p>
                                     <span className="xb-item--number">01</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg2} alt="" /></div>
-                                    <h3 className="xb-item--title">Competitor analysis</h3>
-                                    <p className="xb-item--contact">Analyze link strategies to find valuable opportunities.</p>
+                                    <h3 className="xb-item--title">Conception UI/UX</h3>
+                                    <p className="xb-item--contact">Wireframes, prototypes interactifs et tests utilisateurs</p>
                                     <span className="xb-item--number">02</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg3} alt="" /></div>
-                                    <h3 className="xb-item--title">Targeted campaign</h3>
-                                    <p className="xb-item--contact">Connect with relevant sites to secure quality backlinks.</p>
+                                    <h3 className="xb-item--title">Développement</h3>
+                                    <p className="xb-item--contact">Front-end performant, back-end sécurisé et intégrations API.</p>
                                     <span className="xb-item--number">03</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg4} alt="" /></div>
-                                    <h3 className="xb-item--title">Reporting</h3>
-                                    <p className="xb-item--contact">Track performance and provide regular progress updates.</p>
+                                    <h3 className="xb-item--title">Optimisation & Livraison</h3>
+                                    <p className="xb-item--contact">Tests cross-devices, formation et documentation technique</p>
                                     <span className="xb-item--number">04</span>
                                 </div>
                                 <div className="sd-shape"><img src={shape} alt="" /></div>
@@ -115,26 +125,25 @@ const ServiceSinglePageWeb = (props) => {
                         <div className="container">
                             <div className="sd-ser-outcome">
                                 <div className="sd-heading">
-                                    <h2 className="sd-title">Services outcome</h2>
-                                    <p className="sd-content">Here are six key points related to "Boost Your Authority with Link Building" in the context of digital transformation and risk management <br /> solutions for Fortune 500 companies, with a bit more detail:</p>
+                                    <h2 className="sd-title">Résultats Clés</h2>
+                                    <p className="sd-content">Un site web devrait être votre meilleur commercial - disponible 24/7.:</p>
                                 </div>
                                 <div className="sd-list-item ul_li">
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Enhance Credibility and Trust.</li>
-                                        <li><img src={sicon} alt="" />Improve Search Engine Rankings.</li>
-                                        <li><img src={sicon} alt="" />Foster Strategic Partnerships.</li>
+                                        <li><img src={sicon} alt="" />Site Ultra-Performant : 90+ score Lighthouse</li>
+                                        <li><img src={sicon} alt="" />UI/UX Convertisseuse : Parcours utilisateur optimisé</li>
+                                        <li><img src={sicon} alt="" />100% Responsive : Adapté à tous les appareils</li>
                                     </ul>
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Showcase Thought Leadership.</li>
-                                        <li><img src={sicon} alt="" />Drive Targeted Traffic.</li>
-                                        <li><img src={sicon} alt="" />Support Long-Term Growth.</li>
+                                        <li><img src={sicon} alt="" />SEO Intégré : Architecture technique optimisée</li>
+                                        <li><img src={sicon} alt="" />Sécurité Renforcée : Protocoles avancés</li>
+                                        <li><img src={sicon} alt="" />Évolutivité : Architecture modulaire</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </main>
-                <CtaSection />
             </div>
             <Scrollbar />
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />

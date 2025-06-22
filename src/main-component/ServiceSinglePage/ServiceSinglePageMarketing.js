@@ -64,13 +64,22 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-ser-content_wrap pb-110">
                         <div className="container">
                             <div className="sd-ser-content">
-                                <h2 className="sd-title">Boost your authority with link building</h2>
+                                <h2 className="sd-title">Boostez Votre Visibilité avec Notre Stratégie Marketing</h2>
                                 <p className="sd-content">
-                                    In today’s competitive digital landscape, link building is essential for enhancing your website's authority and visibility. By acquiring high-quality backlinks from reputable sources, you not only improve your search engine rankings but also establish credibility within your industry. This strategic approach involves identifying relevant opportunities, fostering relationships with influential websites, and creating valuable content that encourages organic links. As your backlink profile grows, so does your domain authority, leading to increased organic traffic and greater trust from both users and search engines
+                                    Dans un environnement digital où 73% des acheteurs B2B commencent leur parcours par
+                                    une recherche en ligne*, une présence marketing optimisée n'est plus optionnelle –
+                                    c'est un impératif stratégique. Notre service complet de Marketing Digital &
+                                    Ads combine data, créativité et technologie pour générer des leads qualifiés et maximiser votre ROI.
                                 </p>
                                 <br />
                                 <p className="sd-content">
-                                    Finally, consistently monitor your progress through analytics, adjusting your tactics as needed to maximize results. By focusing on quality over quantity, you can cultivate a robust network of backlinks that significantly boosts your site's authority and enhances its overall performance in search engine results.Implement a targeted outreach campaign to connect with relevant websites and industry influencers, emphasizing the value your content brings.
+                                    Pourquoi ça marche ?
+
+                                    Jusqu'à 300% de ROI sur les campagnes bien optimisées**
+
+                                    Coût par acquisition réduit de 40% grâce à notre approche data-driven***
+
+                                    Audiences hyper-ciblées via nos modèles prédictifs maison
                                 </p>
                             </div>
                         </div>
@@ -78,32 +87,32 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-process_warp">
                         <div className="container">
                             <div className="sd-heading">
-                                <h2 className="sd-title">Service process</h2>
-                                <p className="sd-content">Our service process begins with a thorough consultation and website audit, followed by competitor analysis to inform a tailored marketing campaign. We maintain regular communication and provide comprehensive reporting to ensure optimal results and continuous improvement.</p>
+                                <h2 className="sd-title">Notre Processus</h2>
+                                <p className="sd-content">Prêt à transformer votre acquisition client ? Allons-y</p>
                             </div>
                             <div className="sd-process_inner ul_li">
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg1} alt="" /></div>
-                                    <h3 className="xb-item--title">Initial website audit</h3>
-                                    <p className="xb-item--contact">Assess your website's SEO performance and backlink.</p>
+                                    <h3 className="xb-item--title">Audit Stratégique</h3>
+                                    <p className="xb-item--contact">Analyse de votre marché, concurrence et performance actuelle</p>
                                     <span className="xb-item--number">01</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg2} alt="" /></div>
-                                    <h3 className="xb-item--title">Competitor analysis</h3>
-                                    <p className="xb-item--contact">Analyze link strategies to find valuable opportunities.</p>
+                                    <h3 className="xb-item--title">Plan Personnalisé</h3>
+                                    <p className="xb-item--contact">Définition des canaux prioritaires (SEA, social ads, display) et KPI</p>
                                     <span className="xb-item--number">02</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg3} alt="" /></div>
-                                    <h3 className="xb-item--title">Targeted campaign</h3>
-                                    <p className="xb-item--contact">Connect with relevant sites to secure quality backlinks.</p>
+                                    <h3 className="xb-item--title">Exécution</h3>
+                                    <p className="xb-item--contact">Campagnes multi-canaux avec A/B testing intensif</p>
                                     <span className="xb-item--number">03</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg4} alt="" /></div>
-                                    <h3 className="xb-item--title">Reporting</h3>
-                                    <p className="xb-item--contact">Track performance and provide regular progress updates.</p>
+                                    <h3 className="xb-item--title">Optimisation Continue</h3>
+                                    <p className="xb-item--contact">Suivi quotidien et ajustements algorithmiques</p>
                                     <span className="xb-item--number">04</span>
                                 </div>
                                 <div className="sd-shape"><img src={shape} alt="" /></div>
@@ -114,19 +123,19 @@ const ServiceSinglePage = (props) => {
                         <div className="container">
                             <div className="sd-ser-outcome">
                                 <div className="sd-heading">
-                                    <h2 className="sd-title">Services outcome</h2>
-                                    <p className="sd-content">Here are six key points related to "Boost Your Authority with Link Building" in the context of digital transformation and risk management <br /> solutions for Fortune 500 companies, with a bit more detail:</p>
+                                    <h2 className="sd-title">Résultats Concrets</h2>
+                                    <p className="sd-content">Le bon message, à la bonne personne, au bon moment - répété à l'échelle.:</p>
                                 </div>
                                 <div className="sd-list-item ul_li">
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Enhance Credibility and Trust.</li>
-                                        <li><img src={sicon} alt="" />Improve Search Engine Rankings.</li>
-                                        <li><img src={sicon} alt="" />Foster Strategic Partnerships.</li>
+                                        <li><img src={sicon} alt="" />Trafic Hautement Qualifié : Lead-to-customer ratio optimisé</li>
+                                        <li><img src={sicon} alt="" />Branding Puissant : Augmentation de la notoriété mesurable</li>
+                                        <li><img src={sicon} alt="" />Coûts Maîtrisés : CPA inférieur de 30% à la moyenne sectorielle</li>
                                     </ul>
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Showcase Thought Leadership.</li>
-                                        <li><img src={sicon} alt="" />Drive Targeted Traffic.</li>
-                                        <li><img src={sicon} alt="" />Support Long-Term Growth.</li>
+                                        <li><img src={sicon} alt="" />Approche 360° : Intégration SEO/SEA/social</li>
+                                        <li><img src={sicon} alt="" />Reporting Transparent : Tableaux de bord temps réel</li>
+                                        <li><img src={sicon} alt="" />Flexibilité Totale : Budgets adaptés à vos objectifs</li>
                                     </ul>
                                 </div>
                             </div>
