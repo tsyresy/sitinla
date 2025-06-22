@@ -4,7 +4,6 @@ import { useParams } from 'react-router-dom'
 import ModalVideo from 'react-modal-video'
 import Header4 from '../../components/header4/Header4';
 import Scrollbar from '../../components/scrollbar/scrollbar'
-import CtaSection from '../../components/CtaSection/CtaSection';
 import Bg from '../../images/bg/page_bg01.jpg'
 import icon from '../../images/icon/ser-01.svg'
 import srImg from '../../images/shape/brd_shape.png'
@@ -65,13 +64,22 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-ser-content_wrap pb-110">
                         <div className="container">
                             <div className="sd-ser-content">
-                                <h2 className="sd-title">Boost your authority with link building</h2>
+                                <h2 className="sd-title">Renforcez Votre Identité Visuelle avec un Design Graphique Stratégique</h2>
                                 <p className="sd-content">
-                                    In today’s competitive digital landscape, link building is essential for enhancing your website's authority and visibility. By acquiring high-quality backlinks from reputable sources, you not only improve your search engine rankings but also establish credibility within your industry. This strategic approach involves identifying relevant opportunities, fostering relationships with influential websites, and creating valuable content that encourages organic links. As your backlink profile grows, so does your domain authority, leading to increased organic traffic and greater trust from both users and search engines
+                                    Votre identité graphique est bien plus qu’une simple esthétique – c’est un levier
+                                    stratégique pour capter l’attention, inspirer confiance et différencier votre marque.
+                                    Notre service de design graphique transforme vos valeurs et messages en visuels percutants,
+                                    mémorables et alignés avec vos objectifs business. Que ce soit pour un rebranding complet,
+                                    des supports marketing ou une présence digitale cohérente, nous combinons créativité et
+                                    méthodologie pour des résultats tangibles.
                                 </p>
                                 <br />
                                 <p className="sd-content">
-                                    Finally, consistently monitor your progress through analytics, adjusting your tactics as needed to maximize results. By focusing on quality over quantity, you can cultivate a robust network of backlinks that significantly boosts your site's authority and enhances its overall performance in search engine results.Implement a targeted outreach campaign to connect with relevant websites and industry influencers, emphasizing the value your content brings.
+                                    Une identité visuelle forte génère des impacts concrets : jusqu’à 80% de mémorisation
+                                    accrue (Source : NNGroup) et 3 fois plus d’engagement sur les contenus brandés (HubSpot).
+                                    Nos designs ne se contentent pas d’être beaux – ils racontent votre histoire, guident vos
+                                    audiences et renforcent votre crédibilité à chaque point de contact. De la palette de
+                                    couleurs à la typographie, chaque élément est pensé pour communiquer votre singularité et convertir vos cibles.
                                 </p>
                             </div>
                         </div>
@@ -79,32 +87,32 @@ const ServiceSinglePage = (props) => {
                     <div className="sd-process_warp">
                         <div className="container">
                             <div className="sd-heading">
-                                <h2 className="sd-title">Service process</h2>
-                                <p className="sd-content">Our service process begins with a thorough consultation and website audit, followed by competitor analysis to inform a tailored marketing campaign. We maintain regular communication and provide comprehensive reporting to ensure optimal results and continuous improvement.</p>
+                                <h2 className="sd-title">Notre Processus </h2>
+                                <p className="sd-content">Prêt à donner vie à votre identité visuelle ? </p>
                             </div>
                             <div className="sd-process_inner ul_li">
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg1} alt="" /></div>
-                                    <h3 className="xb-item--title">Initial website audit</h3>
-                                    <p className="xb-item--contact">Assess your website's SEO performance and backlink.</p>
+                                    <h3 className="xb-item--title">Audit & Stratégie</h3>
+                                    <p className="xb-item--contact">Analyse de votre identité existante et benchmark concurrentiel..</p>
                                     <span className="xb-item--number">01</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg2} alt="" /></div>
-                                    <h3 className="xb-item--title">Competitor analysis</h3>
-                                    <p className="xb-item--contact">Analyze link strategies to find valuable opportunities.</p>
+                                    <h3 className="xb-item--title">Direction Artistique</h3>
+                                    <p className="xb-item--contact">Création de moodboards et validation de la charte graphique.</p>
                                     <span className="xb-item--number">02</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg3} alt="" /></div>
-                                    <h3 className="xb-item--title">Targeted campaign</h3>
-                                    <p className="xb-item--contact">Connect with relevant sites to secure quality backlinks.</p>
+                                    <h3 className="xb-item--title">Production Créative</h3>
+                                    <p className="xb-item--contact">Design des supports print et digitaux (logo, templates, packaging…).</p>
                                     <span className="xb-item--number">03</span>
                                 </div>
                                 <div className="sd-process-item">
                                     <div className="xb-item--icon"><img src={sImg4} alt="" /></div>
-                                    <h3 className="xb-item--title">Reporting</h3>
-                                    <p className="xb-item--contact">Track performance and provide regular progress updates.</p>
+                                    <h3 className="xb-item--title">Livraison</h3>
+                                    <p className="xb-item--contact">Remise des fichiers sources et accompagnement pour une utilisation optimale.</p>
                                     <span className="xb-item--number">04</span>
                                 </div>
                                 <div className="sd-shape"><img src={shape} alt="" /></div>
@@ -115,26 +123,25 @@ const ServiceSinglePage = (props) => {
                         <div className="container">
                             <div className="sd-ser-outcome">
                                 <div className="sd-heading">
-                                    <h2 className="sd-title">Services outcome</h2>
-                                    <p className="sd-content">Here are six key points related to "Boost Your Authority with Link Building" in the context of digital transformation and risk management <br /> solutions for Fortune 500 companies, with a bit more detail:</p>
+                                    <h2 className="sd-title">Résultats Clés</h2>
+                                    <p className="sd-content">Un design réussi est invisible : on ne retient que votre message</p>
                                 </div>
                                 <div className="sd-list-item ul_li">
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Enhance Credibility and Trust.</li>
-                                        <li><img src={sicon} alt="" />Improve Search Engine Rankings.</li>
-                                        <li><img src={sicon} alt="" />Foster Strategic Partnerships.</li>
+                                        <li><img src={sicon} alt="" />Identité Visuelle Cohérente.</li>
+                                        <li><img src={sicon} alt="" />Reconnaissance de Marque.</li>
+                                        <li><img src={sicon} alt="" />Support Marketing Impactants.</li>
                                     </ul>
                                     <ul className="sd-ser-list list-unstyled">
-                                        <li><img src={sicon} alt="" />Showcase Thought Leadership.</li>
-                                        <li><img src={sicon} alt="" />Drive Targeted Traffic.</li>
-                                        <li><img src={sicon} alt="" />Support Long-Term Growth.</li>
+                                        <li><img src={sicon} alt="" />Gain de Temps.</li>
+                                        <li><img src={sicon} alt="" />Modernisation de l’Image.</li>
+                                        <li><img src={sicon} alt="" />Polyvalence.</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </main>
-                <CtaSection />
             </div>
             <Scrollbar />
             <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="7e90gBu4pas" onClose={() => setOpen(false)} />
